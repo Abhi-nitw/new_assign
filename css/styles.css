@@ -1,0 +1,96 @@
+		/** customizing body Styles **/
+body{
+	font-size: 20px;
+  	font-family: 'oxygen' , sans-serif;
+}
+	
+	/** Header **/
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+		
+	/** Navbar-Brand Styling **/
+.navnar-brand{
+	padding: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	font-weight: bold ;
+	text-shadow: 1px 1px 1px #222
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .75;
+	color: red;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none; /** removing uderline of link**/
+
+}
+		/*** nav-list Styling***/
+#nav-list{
+	margin-top: 8px;
+	background-color: #a9c1e8;
+}
+#nav-list a{
+	color: #561602;
+	text-align:center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar{
+	border: 1px solid #61a;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+		/**Home page***/
+.container-fluid{
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid black;
+		margin-left: 1px;
+		background-color: grey;
+}
+
+
+#heading{
+	text-align: center;
+}
+.go{
+	text-align: center;
+	margin-top:10px ;
+	margin-bottom: 10px;
+	font-size: 2em;
+	font-family: all;
+}
+.go a:hover, .go a:focus{
+	text-decoration: all; /** removing uderline of link**/
+
+}
+.go a:hover{
+	color: green;
+}
+							/***small and medium Devices***/
+@media(min-width: 768px){
+	.navbar-brand{
+		margin-bottom: 20px;
+	}
+							/***Extra Small Device***/
+@media(max-width: 767px){
+	/**Header**/
+	.navbar-brand{
+		padding-top: 8px;
+		height: 60px;
+	}
+	.navbar-brand h1{ /*Name*/	
+		padding-top: 6px;
+		font-size: 5vw;
+		margin-top: 5px;
+	}
+	/**End Header**/
